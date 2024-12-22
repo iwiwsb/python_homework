@@ -24,4 +24,4 @@ jobs:
       with:
         python-version: "3.13"
     - name: Test factorial function with unittest
-      run: python -m unittest hw-8/test_factorial.py
+      run: python -m unittest discover -v -s hw-8 -p test_*.py
